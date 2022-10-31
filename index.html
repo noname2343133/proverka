@@ -1,0 +1,65 @@
+<meta charset="UTF-8" />
+<script src="https://telegram.org/js/telegram-web-app.js"></script>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<body>
+    <div class="Welcome__gem"><video width="100px" height="100px" autoplay="" loop="" playsinline="" class="player" poster="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII" preload="auto" muted="" disableremoteplayback=""><source src="https://ton.org/_next/static/media/dimond_2-1.hevc.4d6283ed.mp4" type="video/quicktime"><source src="https://ton.org/_next/static/media/dimond_1_VP9.29bcaf8e.webm" type="video/webm"></video><div class="Welcome__gem-shadow"></div><div class="Welcome__gem-background"></div></div>
+    <p class="text">Ваш мультивалютный криптокошелек</p>
+    <p class="hint">Покупайте, продавайте, храните и платите криптовалютой когда хотите.</p>
+    <p class="balance">Баланс: 0 USD</p>
+
+    <button class="button"><i class="fa fa-share"></i><br/>Вывести</button>
+    <button class="button"><i class="fa fa-plus"></i><br/>Пополнить</button>
+    <a href="https://habr.com/ru/post/666278/"><button class="button"><i class="fa fa-exchange"></i><br/>Обмен</button></a>
+ </body>
+
+
+<script>
+let tg = window.Telegram.WebApp; //получаем объект webapp телеграма 
+</script>
+
+<style>
+body{
+	color: var(--tg-theme-text-color);
+	background: var(--tg-theme-bg-color);
+    text-align: center;
+	align-items: center;
+}
+.text{
+    font-size: 20px;
+    font-weight: bold;
+}
+.Welcome__gem{
+    padding-top: 100px;
+}
+
+.hint{
+	color: var(--tg-theme-hint-color);
+}
+
+.link{
+	color: var(--tg-theme-link-color);
+}
+.balance{
+    margin-top: 35px;
+    font-size: 18px; 
+}
+.button {
+  display: inline-block;
+  background: #1D2C3B;
+  color: #fff;
+  width: 110px;
+  padding: 10px 2px;
+  margin-top: 30px;
+  margin-left: 3px;
+  border: none;
+  border-radius: 8px;
+  text-decoration: none;
+  line-height: 1;
+  cursor: pointer;
+}
+.fa{
+    color: #5288C1;
+    font-size: 20px;
+}
+
+</style>
